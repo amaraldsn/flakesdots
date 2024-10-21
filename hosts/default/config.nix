@@ -55,7 +55,7 @@ in
   stylix = {
     enable = true;
     #image = ../../config/wallpapers/Rainnight.jpg;
-    image = /home/anonuumne/zaneyos/config/wallpapers/nixoswallpaper1.png;
+    image = /home/anonuumne/zaneyos/config/wallpapers/gruvbox1.png;
      base16Scheme = {
        base00 = "282828";
        base01 = "3c3836";
@@ -326,6 +326,8 @@ in
     superTuxKart
     genymotion
     obs-studio
+    clipse
+    android-tools
     pavucontrol
     tree
     speechd

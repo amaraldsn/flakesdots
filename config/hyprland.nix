@@ -136,11 +136,12 @@ with lib;
           bind = ${modifier}SHIFT,N,exec,swaync-client -rs
 	  # Browsers
           bind = ${modifier},F,exec,${browser}
-	  bind = ${modifier},Z,exec,vivaldi
-	  bind = ${modifier},B,exec,zen-alpha
+		  bind = ${modifier},Z,exec,vivaldi
+	      bind = ${modifier},B,exec,zen-alpha
 	  # Outros apps
           bind = ${modifier},Return,exec,emopicker9000
           bind = ${modifier},S,exec,screenshootin
+          bind = ${modifier},V,exec,kitty --class clipse -e 'clipse'
           bind = ${modifier},D,exec,discord
           bind = ${modifier},O,exec,obs
           bind = ${modifier},C,exec,hyprpicker -a
