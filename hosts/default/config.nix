@@ -327,6 +327,10 @@ in
     genymotion
     obs-studio
     clipse
+    scrcpy
+    xonotic
+    extremetuxracer
+    assaultcube
     android-tools
     pavucontrol
     tree
@@ -334,6 +338,10 @@ in
     gnome.gnome-disk-utility
     neovide
     greetd.tuigreet
+  ];
+
+  services.udev.packages = [
+  pkgs.android-udev-rules
   ];
 
   # KDE Connect
