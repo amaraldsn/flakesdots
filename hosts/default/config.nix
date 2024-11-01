@@ -265,6 +265,7 @@ in
   environment.systemPackages = with pkgs; [
     vim
     geany
+    #gnome.nautilus
     wget
     killall
     eza
